@@ -69,6 +69,7 @@ fun main() {
                     }
                 }
             }
+
             if (!moved) {
                 // We can't move it so stop it
                 sands.remove(s)
@@ -162,7 +163,7 @@ fun main() {
     // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day14_test")
     //   check(part1(testInput) == 24)
-   check(part2(testInput) == 93)
+    check(part2(testInput) == 93)
 
     val input = readInput("Day14")
     //   println(part1(input))
